@@ -2,7 +2,7 @@ name: Continuous Integration
 on: push
 env:
   DB_NAME: test
-  DB_USER: uroot
+  DB_USER: root
   DB_PASSWORD: proot
 jobs:
   run_code_checks:
